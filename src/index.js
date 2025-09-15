@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+<<<<<<< HEAD
 //import Book from './ch03/Book';
 //import App from './App';
 // import Hello from './ch03/Hello'; 
@@ -102,3 +103,25 @@ import CommentList from './ch05/CommentList';
  root.render(<CommentList/>);
 //   // <App />
 // )
+=======
+//import App from './App';
+import Hello from './ch03/Hello'; 
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <div>
+      <Hello toWhat="World!" />
+      <Hello toWhat="props-toWhat 연습!" />
+      <Hello toWhat="aaa" />
+    </div>
+  </React.StrictMode>
+);
+
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+>>>>>>> 0f8547835225f9559cc42058534249a6d3ec5091
