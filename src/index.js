@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Counter from "./ch07/Counter";
+import FactorialContainer from "./ch07/FactorialContainer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Counter />);
+root.render(<FactorialContainer />);
